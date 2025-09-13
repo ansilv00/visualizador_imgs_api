@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Visualizador de Imagens</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Visualizador de Imagens</h1>
+        <div class="input_btn">
+            <input type="text" id="searchInput" placeholder="Digite um termo...">
+            <button onclick="buscarImagens(true)">Buscar</button>
+        </div>
+        
+        <div id="galeria"></div>
+        <button id="carregarMais" onclick="buscarImagens(false)" style="display: none;">
+            Carregar Mais
+        </button>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
