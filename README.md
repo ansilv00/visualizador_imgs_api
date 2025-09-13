@@ -34,12 +34,6 @@ Estrutura do Projeto
 │── script.js
 │── README.md
 
-🔑 Como usar
-
-Clone este repositório:
-
-git clone https://github.com/seu-usuario/visualizador-imagens.git
-
 
 Abra o arquivo index.html no navegador.
 
